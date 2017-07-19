@@ -6,7 +6,7 @@ function generateFaces() {
 	var top_position=0;
 	var left_position=0;
 	image=document.createElement("img");
-	image.src="smile.png";
+	image.src="http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png";
 	top_position=random(0,400);
 	left_position=random(0,400);
 	image.style.position="absolute";
